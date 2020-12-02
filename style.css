@@ -7,7 +7,7 @@ body {
 }
 #box { 
   background: #44475a;
-  margin: 32px;
+  margin: 40px;
   padding: 16px;
   width: 720px; 
   text-align: center;
@@ -34,11 +34,21 @@ p {
   padding: 12px;
   background-color: white;
   border: 1px #50fa7b solid;
-  border-radius: 50%;
+  border-radius: 30%;
   margin: 12px;
 }
 .logos:hover{
   background: #50fa7b;
   width: 40px;
   transition: 100ms;
+}
+
+@media only screen and (max-width: 600px){
+  #box {
+    width: 90%;
+  }
+  #me{
+    width: 250px;
+  }
+
 }
