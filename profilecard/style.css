@@ -28,6 +28,7 @@ p {
 #me {
   border-radius: 50%;
   border: 6px #50fa7b solid;
+  width: 400px;
 }
 .logos{
   width: 32px;
@@ -50,5 +51,4 @@ p {
   #me{
     width: 250px;
   }
-
 }
