@@ -14,12 +14,12 @@ body {
   border-radius: 12px;
 }
 #box:hover{
-  border: 2px #50fa7b solid;
+  border: 2px var(--color-green) solid;
   transition: 500ms;
 }
 h1 {
   font-size: 40px;
-  color: #50fa7b;
+  color: var(--color-green);
 }
 p {
   font-size: 24px;
@@ -27,19 +27,19 @@ p {
 }
 #me {
   border-radius: 50%;
-  border: 6px #50fa7b solid;
+  border: 6px var(--color-green) solid;
   width: 400px;
 }
 .logos{
   width: 32px;
   padding: 12px;
   background-color: white;
-  border: 1px #50fa7b solid;
+  border: 1px var(--color-green) solid;
   border-radius: 30%;
   margin: 12px;
 }
 .logos:hover{
-  background: #50fa7b;
+  background: var(--color-green);
   width: 40px;
   transition: 100ms;
 }

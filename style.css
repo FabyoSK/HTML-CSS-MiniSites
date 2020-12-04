@@ -1,5 +1,31 @@
 body {
   background: #282a36;
+  margin: 0;
+}
+header {
+  background: #6272a4;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+header a {
+  padding: 0 12px;
+  font-size: 20px;
+  color: var(--color-green);
+}
+#fsklogo {
+
+  width: 100px;
+  margin-right: 100px;
+}
+#logos-header {
+  display: flex;
+  align-items: center;
+}
+#logos-header img{
+  width: 32px;
+}
+.treste{
   display: flex;
   justify-content: center;
   align-items: center;
